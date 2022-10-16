@@ -1,97 +1,98 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style-type: none;
-    text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 body {
-    background-image: url(../images/bakg.webp);
-    background-size: cover;
+  background-image: url(../images/bakg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 section {
-    text-align: center;
-    margin-top: 5%;
+  text-align: center;
+  margin-top: 5%;
 }
 
 section h1 {
-    color: white;
-    font-size: 50px;
+  color: white;
+  font-size: 50px;
+  padding-bottom: 5px;
 }
 
 span {
-    font-size: 70px;
-    color: #33e8ff;
-}
-
-span i {
-    margin-top: 30px;
+  font-size: 70px;
+  color: #33e8ff;
 }
 
 table {
-    background-color: rgb(66, 8, 92);
-    margin: auto;
-    width: 30%;
-    height: 100%;
-    padding: 5%;
-    background-image: url(../images/b1.jpg);
+  background-color: rgb(66, 8, 92);
+  margin: auto;
+  width: 30%;
+  height: 100%;
+  padding: 5%;
+  background-image: url(../images/b1.jpg);
+  margin-top: 5px;
 }
 
 tbody [type="email"] {
-    height: 30px;
-    width: 100%;
-    font-size: 20px;
+  height: 35px;
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
 }
 
 tbody [type="password"] {
-    height: 30px;
-    width: 100%;
-    font-size: 20px;
-    margin-top: 10%;
+  height: 35px;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 10%;
+  padding: 10px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
 }
 
 label {
-    color: white;
+  color: white;
 }
 
-.ckbx td input{
-    margin-top: 10%;
+.ckbx td input {
+  margin-top: 10%;
 }
 
 button {
-    background: rgb(51, 232, 255);
-    margin-top: 10%;
-    padding: 10px 0px;
-    width: 100%;
-    font-size: 20px;
-    border: 1px solid #33e8ff;
-    border-radius: 10px;
+  background: rgb(51, 232, 255);
+  margin-top: 10%;
+  padding: 10px 0px;
+  width: 100%;
+  font-size: 20px;
+  border: 1px solid #33e8ff;
+  border-radius: 10px;
 }
 
 button:hover {
-    color: #fff;
-    background: rgba(0, 0, 0, 0);
+  color: #fff;
+  background: rgba(0, 0, 0, 0);
+}
+
+.link {
+  padding: 20px 0 0 0;
 }
 
 .link a {
-    margin-top: 10%;
-    color: white;
+  color: white;
 }
 
 p {
-    color: white;
-    font-size: 20px;
-    margin-top: 20px;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
 }
-
-
-
-
-
-
-
-
-
-
